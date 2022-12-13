@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PizzaPrime - Website</title>
 
-    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <!-- <script>
         setInterval(() => {
@@ -18,8 +18,8 @@
     <main>
         <nav>
             <div class="logo">
-                <a href="#">
-                    <img src="src/img/logo.png" alt="PizzaPrime">
+                <a href="index.php">
+                    <img src="assets/img/logo.png" alt="PizzaPrime">
                 </a>
             </div>
 
@@ -40,7 +40,7 @@
                     <i class="bi bi-bag"></i>
                 </div>
 
-                <a href="#" class="btn auth">
+                <a href="pages/login.php" class="btn auth">
                     <i class="bi bi-person-fill"></i>
                     <span>Login</span>
                 </a>
@@ -57,7 +57,7 @@
                 </div>
             </div>
             <div class="container-illustration">
-                <img src="src/img/pizza-illustration.png">
+                <img src="assets/img/pizza-illustration.png">
             </div>
         </div>
         
@@ -69,7 +69,7 @@
         
             <div class="destaques">
                 <div class="destaque">
-                    <img src="src/img/destaques/calabresa.png" class="image-product">
+                    <img src="assets/img/destaques/calabresa.png" class="image-product">
                     <div class="txts">
                         <h3 class="name-product">Calabresa</h3>
                         
@@ -79,7 +79,7 @@
                     <div class="button-order">Adicionar ao carrinho</div>
                 </div>
                 <div class="destaque">
-                    <img src="src/img/destaques/calabresa.png" class="image-product">
+                    <img src="assets/img/destaques/calabresa.png" class="image-product">
                     <div class="txts">
                         <h3 class="name-product">Calabresa</h3>
                         
@@ -89,7 +89,7 @@
                     <div class="button-order">Adicionar ao carrinho</div>
                 </div>
                 <div class="destaque">
-                    <img src="src/img/destaques/calabresa.png" class="image-product">
+                    <img src="assets/img/destaques/calabresa.png" class="image-product">
                     <div class="txts">
                         <h3 class="name-product">Calabresa</h3>
                         
@@ -109,19 +109,19 @@
 
             <div class="list">
                 <div class="process-list">
-                    <img src="src/img/processo/pedido.png">
+                    <img src="assets/img/processo/pedido.png">
                     <h3>Escolha o pedido</h3>
                 </div>
                 <div class="process-list">
-                    <img src="src/img/processo/order_preparation.png">
+                    <img src="assets/img/processo/order_preparation.png">
                     <h3>Preparação do pedido</h3>
                 </div>
                 <div class="process-list">
-                    <img src="src/img/processo/delivery.png">
+                    <img src="assets/img/processo/delivery.png">
                     <h3>Seguindo ao destino</h3>
                 </div>
                 <div class="process-list">
-                    <img src="src/img/processo/pedido.png">
+                    <img src="assets/img/processo/pedido.png">
                     <h3>Pedido entregue</h3>
                 </div>
             </div>
