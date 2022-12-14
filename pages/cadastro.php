@@ -12,7 +12,7 @@
     <header>
 
 
-        <img src="" class="logo">
+        <img src="../assets/img/mini-logo.png" class="logo">
     </header> 
     <main>
             <!-- Etapa de cadastro 2-->
@@ -107,8 +107,83 @@
 
     </main>
     <footer>
-
+        
     </footer>
+    <style>
+        main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+main > div {
+    width: 50%;
+    min-height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+
+    padding: 0 6%;
+    position: relative;
+}
+
+main > div:nth-child(3) {
+    align-items: center;
+    background-color: #fd292f;
+}
+*/
+
+.input-ctn input {
+   
+    width: 100%;
+    border-radius: 5px;
+    height: 7vh;
+}
+
+.two-input {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.two-input .input-ctn {
+    position: relative;
+    width: 49%;
+}
+
+.two-input .input-ctn input {
+    width: 100%;
+}
+
+.submit1{
+    width: 100%;
+    height: 7vh;
+    margin-top: 15px;
+    align-items: center;
+    background:  #fd292f;
+    border-radius: 5px;
+    color:  #fff6f6;
+    cursor: pointer;
+    border-style: none;
+    
+
+}
+
+.etapa2{
+   
+    display: none ;
+   
+}
+
+.form{
+    margin-top: 15px;
+}
+
+    </style>
     <script src="../assets/scripts/script.js"></script>
 </body>
 </html>
